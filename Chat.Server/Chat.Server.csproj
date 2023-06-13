@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Chat.Core\Chat.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="QNetLib">
+      <HintPath>..\QNetLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

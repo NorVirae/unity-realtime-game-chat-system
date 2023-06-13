@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityRealtimeGameChatSystem", "UnityRealtimeGameChatSystem\UnityRealtimeGameChatSystem.csproj", "{5C686EF9-35C9-4634-9C9B-8F08A498AB20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnityRealtimeGameChatSystem", "UnityRealtimeGameChatSystem\UnityRealtimeGameChatSystem.csproj", "{5C686EF9-35C9-4634-9C9B-8F08A498AB20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Service", "Chat.Service\Chat.Service.csproj", "{26240964-6B69-4A0C-9C6C-3CA49831EF8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chat.Service", "Chat.Service\Chat.Service.csproj", "{26240964-6B69-4A0C-9C6C-3CA49831EF8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Server", "Chat.Server\Chat.Server.csproj", "{8A49B8E8-11AC-4D5D-A689-F7A035164C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Core", "Chat.Core\Chat.Core.csproj", "{B88E8DBF-2377-4255-8B47-E797C458D480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{26240964-6B69-4A0C-9C6C-3CA49831EF8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26240964-6B69-4A0C-9C6C-3CA49831EF8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26240964-6B69-4A0C-9C6C-3CA49831EF8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A49B8E8-11AC-4D5D-A689-F7A035164C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A49B8E8-11AC-4D5D-A689-F7A035164C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A49B8E8-11AC-4D5D-A689-F7A035164C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A49B8E8-11AC-4D5D-A689-F7A035164C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B88E8DBF-2377-4255-8B47-E797C458D480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B88E8DBF-2377-4255-8B47-E797C458D480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B88E8DBF-2377-4255-8B47-E797C458D480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B88E8DBF-2377-4255-8B47-E797C458D480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

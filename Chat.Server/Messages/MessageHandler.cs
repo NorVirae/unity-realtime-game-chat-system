@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Chat.Server.Context
+namespace Chat.Server.Messages
 {
-    internal class Server
+    public class MessageHandler
     {
+        public MessageHandler() {
+            
+        }
     }
 }

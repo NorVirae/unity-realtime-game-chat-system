@@ -1,3 +1,5 @@
+using Chat.Server;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,6 +10,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+var serverManager = new ServerManager();
+serverManager.networkManager.StartServer("127.0.0.1", 3000);
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
